@@ -1,0 +1,64 @@
+    /*header*/
+    
+    header {
+        background-color: #b11313;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .menu {
+        text-align: center;
+    }
+    /*use a media query to header*/
+    
+    @media (max-width:765px) {
+        .menu span {
+            display: none;
+        }
+    }
+    /*footer*/
+    /*home
+    **article*/
+    
+    h1 {
+        color: #ffffff;
+        /*padding-top: 20%;
+        margin-left: 15%;*/
+        font-style: regular;
+        font-family: "far-from-homecoming";
+    }
+    
+    .btn1 {
+        border-color: #b11313;
+        border-radius: 20px;
+        color: #b11313;
+        background-color: #ffffff;
+    }
+    
+    .btn2 {
+        border-color: #ffffff;
+        border-radius: 20px;
+        color: #ffffff;
+        background-color: #b11313;
+    }
+    
+    .img {
+        align-items: center;
+        align-content: center;
+    }
+    
+    @media (max-width:765px) {
+        .paragraphe1 {
+            margin-top: -20%;
+        }
+        .button-text {
+            margin: 0 0 10% 0;
+        }
+        .button {
+            margin-top: 30%;
+        }
+        .img {
+            text-align: center;
+            align-items: center;
+        }
+    }
